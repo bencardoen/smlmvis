@@ -1,0 +1,7 @@
+[report]
+omit =
+    setup.py
+    smlmvis/__main__.py
+    smlmvis/_version.py
+    versioneer.py
+    tests/*
