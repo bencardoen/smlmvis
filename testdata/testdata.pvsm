@@ -6219,6 +6219,44 @@
         <Proxy value="11129"/>
       </Property>
     </Proxy>
+    <Proxy group="screenshot_writers" type="BMP" id="11161" servers="16"/>
+    <Proxy group="screenshot_writers" type="JPEG" id="11162" servers="16">
+      <Property name="Progressive" id="11162.Progressive" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="bool" id="11162.Progressive.bool"/>
+      </Property>
+      <Property name="Quality" id="11162.Quality" number_of_elements="1">
+        <Element index="0" value="95"/>
+        <Domain name="range" id="11162.Quality.range"/>
+      </Property>
+    </Proxy>
+    <Proxy group="screenshot_writers" type="PNG" id="11160" servers="16">
+      <Property name="CompressionLevel" id="11160.CompressionLevel" number_of_elements="1">
+        <Element index="0" value="5"/>
+        <Domain name="enum" id="11160.CompressionLevel.enum">
+          <Entry value="0" text="0"/>
+          <Entry value="1" text="1"/>
+          <Entry value="2" text="2"/>
+          <Entry value="3" text="3"/>
+          <Entry value="4" text="4"/>
+          <Entry value="5" text="5"/>
+          <Entry value="6" text="6"/>
+          <Entry value="7" text="7"/>
+          <Entry value="8" text="8"/>
+          <Entry value="9" text="9"/>
+        </Domain>
+      </Property>
+    </Proxy>
+    <Proxy group="screenshot_writers" type="TIFF" id="11163" servers="16">
+      <Property name="Compression" id="11163.Compression" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="enum" id="11163.Compression.enum">
+          <Entry value="0" text="None"/>
+          <Entry value="1" text="PackBits"/>
+          <Entry value="3" text="Deflate"/>
+        </Domain>
+      </Property>
+    </Proxy>
     <Proxy group="annotations" type="GridAxes3DActor" id="6005" servers="21">
       <Property name="AxesToLabel" id="6005.AxesToLabel" number_of_elements="1">
         <Element index="0" value="63"/>
@@ -18531,6 +18569,12 @@
     </ProxyCollection>
     <ProxyCollection name="pq_helper_proxies.11129">
       <Item id="11140" name="RepresentationAnimationHelper"/>
+    </ProxyCollection>
+    <ProxyCollection name="pq_helper_proxies.11164">
+      <Item id="11161" name="Format"/>
+      <Item id="11162" name="Format"/>
+      <Item id="11160" name="Format"/>
+      <Item id="11163" name="Format"/>
     </ProxyCollection>
     <ProxyCollection name="pq_helper_proxies.6007">
       <Item id="6005" name="AxesGrid"/>
