@@ -1,7 +1,8 @@
 # Superresolution visualization of 3D protein localization data from a range of microscopes
-
 [![Anaconda-Server Badge](https://anaconda.org/bcardoen/smlmvis/badges/version.svg)](https://anaconda.org/bcardoen/smlmvis)
+
 [![PyPI version](https://badge.fury.io/py/smlmvis.svg)](https://badge.fury.io/py/smlmvis)
+
 
 Read, analyze and visualize SMLM localization data quickly from a wide range of localization algorithms.
 
