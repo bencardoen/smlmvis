@@ -15,10 +15,8 @@ class AbbelightReader(object):
     def _read(self):
         data = pd.read_csv(self._filename)
         self._points = data[['x [nm]', 'y [nm]', 'z [nm]']].values.copy()
-        self._values = data[['id', 'frame','sigma1 [nm]',
-       'sigma2 [nm]', 'intensity [photon]', 'offset [photon]',
-       'bkgstd [photon]', 'uncertainty_xy [nm]', 'uncertainty_z [nm]',
-       'ratio_SAF [photon]', 'z_SAF [nm]', 'z_Astigm [nm]']].values.copy()
+        data = data[data.columns.difference(['x [nm]', 'y [nm]', 'z [nm]'])]
+        self._values = data.values.copy()
 
     @property
     def points(self):
