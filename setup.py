@@ -2,7 +2,7 @@ from setuptools import setup
 import versioneer
 
 requirements = [
-    'numpy', 'vtk', 'jupyter', 'pandas', 'requests', 'seaborn', 'scipy'
+    'numpy', 'vtk', 'jupyter', 'pandas', 'requests', 'seaborn', 'scipy', 'pillow'
 ]
 
 setup(
@@ -14,7 +14,7 @@ setup(
     author="Ben Cardoen",
     author_email='bcardoen@sfu.ca',
     url='https://github.com/bencardoen/smlmvis',
-    download_url='https://github.com/bencardoen/smlmvis/archive/v0.0.8.tar.gz',
+    download_url='https://github.com/bencardoen/smlmvis/archive/v0.0.9.tar.gz',
     packages=['smlmvis'],
     install_requires=requirements,
     keywords='smlmvis',
