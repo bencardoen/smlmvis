@@ -17,5 +17,4 @@ def test_wrt():
 
         url2 = 'http://vault.sfu.ca/index.php/s/NMhjJmaAWfw7sAa/download'
         urllib.request.urlretrieve(url2, os.path.join(indir, 'testref.vtu'))
-
         assert (filecmp.cmp(os.path.join(indir, 'test.vtu'), os.path.join(indir, 'testref.vtu'), shallow=False))
