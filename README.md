@@ -3,6 +3,8 @@
 
 [![PyPI version](https://badge.fury.io/py/smlmvis.svg)](https://badge.fury.io/py/smlmvis)
 
+![Zenodo](https://zenodo.org/badge/doi/10.5281/zenodo.7226577.svg)
+
 
 Read, analyze and visualize SMLM localization data quickly from a wide range of localization algorithms.
 
@@ -82,6 +84,7 @@ A typical workflow is
   year = {2019},
   publisher = {GitHub},
   journal = {GitHub repository},
+  doi = 189660035
   howpublished = {\url{https://github.com/bencardoen/smlmvis/}}
 }
 ```
