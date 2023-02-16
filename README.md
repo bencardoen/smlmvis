@@ -3,7 +3,9 @@
 
 [![PyPI version](https://badge.fury.io/py/smlmvis.svg)](https://badge.fury.io/py/smlmvis)
 
-![Zenodo](https://zenodo.org/badge/doi/10.5281/zenodo.7226577.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7226577.svg)](https://doi.org/10.5281/zenodo.7226577)
+
+
 
 
 Read, analyze and visualize SMLM localization data quickly from a wide range of localization algorithms.
