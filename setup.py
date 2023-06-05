@@ -14,7 +14,7 @@ setup(
     author="Ben Cardoen",
     author_email='bcardoen@sfu.ca',
     url='https://github.com/bencardoen/smlmvis',
-    download_url='https://github.com/bencardoen/smlmvis/archive/v0.0.9.tar.gz',
+    download_url='https://github.com/bencardoen/smlmvis/archive/v0.1.0.tar.gz',
     packages=['smlmvis'],
     install_requires=requirements,
     keywords='smlmvis',
