@@ -69,6 +69,12 @@ $git clone git@github.com:bencardoen/smlmvis.git
 $pip install .
 ```
 
+### Optional
+You may want to install optional dependencies, e.g. jupyter notebook and seaborn for the demo:
+```
+pip install jupyter seaborn
+```
+
 ## Usage
 See demo.ipynb for example usage.
 

@@ -2,7 +2,7 @@ from setuptools import setup
 import versioneer
 
 requirements = [
-    'numpy', 'vtk', 'jupyter', 'pandas', 'requests', 'seaborn', 'scipy', 'pillow'
+    'numpy', 'vtk', 'pandas', 'requests', 'scipy'
 ]
 
 setup(
@@ -21,6 +21,8 @@ setup(
     include_package_data=True,
     package_data={'': ['versioneer.py']},
     classifiers=[
-        'Programming Language :: Python :: 3.7',
+             "Programming Language :: Python :: 3",
+            "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
     ]
 )
