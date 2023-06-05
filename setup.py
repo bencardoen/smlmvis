@@ -2,7 +2,7 @@ from setuptools import setup
 import versioneer
 
 requirements = [
-    'numpy', 'vtk', 'pandas', 'requests', 'scipy'
+    'numpy', 'vtk', 'pandas', 'scipy'
 ]
 
 setup(
